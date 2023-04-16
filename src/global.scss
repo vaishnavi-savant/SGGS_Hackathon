@@ -63,7 +63,6 @@ code {
 .ant-input::placeholder {
   color: gray !important;
 }
-
 .ant-input{
   background-color: var(--theme-color);
   color: var(--sub-primary-color);
@@ -97,6 +96,10 @@ color: var(--sub-primary-color);
 }
 @media (max-width: 1200px) {
   .container {
-     padding-inline: 2rem !important;
+     padding-inline: 0.5rem !important;
   }
+  .ant-tabs-tab-btn {
+    font-size: 1rem;
+  }
+  
 }
